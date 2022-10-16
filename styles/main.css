@@ -80,11 +80,15 @@ img {
 
 picture img {
   max-width: none;
+  max-height: 800px;
 }
 
 .cards img {
   width: 100%;
   height: auto;
+}
+
+.cards {
   display: flex;
   gap: 1rem;
 }
@@ -93,7 +97,6 @@ picture img {
   position: relative;
   background-color: #224952;
   top: -5rem;
-  left: 2rem;
   font-size: 1rem;
   padding: 2rem;
 }
@@ -103,7 +106,7 @@ picture img {
   width: 480px;
 }
 
-.cards:hover {
+.card:hover {
   cursor: pointer;
   box-shadow: 10px 10px grey;
   transition: box-shadow 300ms ease;
@@ -142,9 +145,4 @@ img[srcset] {
   width: 50%;
   height: auto;
   margin: 2rem auto;
-}
-
-/* temporary fix to size svg images */
-img[src$="svg"] {
-  width: 200px;
 }
