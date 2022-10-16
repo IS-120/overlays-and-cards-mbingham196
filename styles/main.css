@@ -95,6 +95,10 @@ picture img {
 .card .text-overlay {
   position: relative;
   background-color: #224952;
+  top: -5rem;
+  left: 2rem;
+  font-size: 1rem;
+  padding: 2rem;
 }
 
 .card {
