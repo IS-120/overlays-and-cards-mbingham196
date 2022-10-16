@@ -137,10 +137,6 @@ article {
   margin-bottom: 5rem;
 }
 
-svg {
-  width: 200px;
-}
-
 /* temp fix to size about img */
 img[srcset] {
   width: 50%;
