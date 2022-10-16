@@ -78,7 +78,7 @@ img {
   display: block;
 }
 
-picture img {
+.hero-image img {
   max-width: none;
   max-height: 800px;
 }
