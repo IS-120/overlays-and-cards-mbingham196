@@ -52,7 +52,7 @@ p {
   left: 1rem;
 }
 
-.hero .text-overlay h1 {
+.hero h1 {
   font-size: clamp(2rem, 7vw, 7rem);
   text-shadow: 5px 5px #636363;
 }
