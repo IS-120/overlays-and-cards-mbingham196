@@ -100,7 +100,7 @@ picture img {
 .card {
   flex: 1 1 0;
   gap: 1rem;
-  width: 25%viewbox;
+  width: 480px;
 }
 
 .cards:hover {
