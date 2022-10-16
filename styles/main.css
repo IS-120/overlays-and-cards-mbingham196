@@ -101,6 +101,10 @@ img {
   padding: 2rem;
 }
 
+.sidewalk .text-overlay {
+  top: -6.5rem;
+}
+
 .card {
   flex: 1 1 0;
   width: 480px;
