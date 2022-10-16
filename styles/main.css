@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-main: #224952;
+  --color-highlight: #3f752d;
+  --color-highlight-2: #974422;
+  --color-highlight-3: #202a44;
+  --color-text: #636363;
+  --color-background: #4a6f87;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Anton", sans-serif;
+  color: var(--color-text);
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 50rem;
+}
+
+aside,
+footer {
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Merriweather", serif;
+  color: var(--color-highlight-3);
+}
+
+p {
+  font-family: "Anton", sans-serif;
+  margin-bottom: 2rem;
+}
+
+/* .hero .picture {
+  backdrop-filter: blur(20px);
+} */
+
+.hero .text-overlay {
+  position: absolute;
+  top: 3rem;
+  left: 1rem;
+}
+
+.hero .text-overlay h1 {
+  font-size: clamp(2rem, 7vw, 7rem);
+  text-shadow: 5px 5px #636363;
+}
+
+.hero .text-overlay p {
+  font-size: 3rem;
+}
+
+/* .hero .picture {
+  position: absolute;
+  filter: sepia(60%);
+} */
+
+picture {
+  width: 100% viewbox;
+}
+
+/* img {
+  width: 100%;
+  display: block;
+} */
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  display: block;
+}
+
+picture img {
+  max-width: none;
+}
+
+.cards img {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.card .text-overlay {
+  position: relative;
+  background-color: #224952;
+}
+
+.card {
+  flex: 1 1 0;
+  gap: 1rem;
+  width: 25%viewbox;
+}
+
+.cards:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px grey;
+  transition: box-shadow 300ms ease;
+}
+
+a[href]:hover {
+  background-color: #3f752d;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: #3f752d;
+  cursor: pointer;
+}
+
+.button {
+  padding: 1rem;
+  border: 0.25rem solid var(--button-color);
+  border-color: #202a44;
+  background-color: #202a;
+  transition: background-color 300ms;
+  display: inline-block;
+}
+
+article {
+  margin-bottom: 5rem;
+}
+
+svg {
+  width: 200px;
+}
+
+/* temp fix to size about img */
+img[srcset] {
+  width: 50%;
+  height: auto;
+  margin: 2rem auto;
+}
+
+/* temporary fix to size svg images */
+img[src$="svg"] {
+  width: 200px;
+}
